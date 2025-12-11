@@ -1,0 +1,12 @@
+{
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.suggest.autoImports": false,
+  "typescript.validate.enable": false,
+  "typescript.preferences.forceConsistentCasingInFileNames": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.reportStyleChecksAsWarnings": true,
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  }
+}

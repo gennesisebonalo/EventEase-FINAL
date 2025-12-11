@@ -1,0 +1,9 @@
+# TypeScript ignore file for Windows case sensitivity issues
+# This file helps suppress casing-related errors on Windows systems
+
+# Ignore casing errors for node_modules
+node_modules/
+
+# Ignore casing errors for specific problematic paths
+**/EventEase-cAPSTONE09/**
+**/EventEase-CAPSTONE09/**
