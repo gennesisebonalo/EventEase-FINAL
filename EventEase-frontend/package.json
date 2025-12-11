@@ -1,5 +1,5 @@
 {
-  "name": "eventease",
+  "name": "EventEase-frontend",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "private": true,
@@ -7,7 +7,6 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
     "reset-project": "node ./scripts/reset-project.js",
     "test": "jest --watchAll",
     "lint": "expo lint"
@@ -62,5 +61,13 @@
   },
   "jest": {
     "preset": "jest-expo"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": ["react-native-chart-kit"],
+        "listUnknownPackages": false
+      }
+    }
   }
 }
