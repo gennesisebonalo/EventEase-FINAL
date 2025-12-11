@@ -22,7 +22,8 @@ export default {
         "INTERNET"
       ],
       newArchEnabled: true,
-      package: "com.eventease.app"
+      package: "com.eventease.app",
+      versionCode: 1
     },
     // Web platform removed - mobile only
     plugins: [
